@@ -4,6 +4,9 @@ const express = require('express');
 const app = express();
 
 // API endpoints go here!
+app.get('/test/api', (req, res) => {
+    res.send('hello world');
+})
 
 
 // Serve the built client
